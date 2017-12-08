@@ -48,6 +48,8 @@ app.use(function(err, req, res, next) {
 
 module.exports = app;
 
+/* should probably put this stuff in another file?  as another module?
+*/
 // websockets for group comms
 const wss = new WebSocket.Server({ port: 10102 });
 
