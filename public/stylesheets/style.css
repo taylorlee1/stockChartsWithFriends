@@ -1,0 +1,27 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#ticker-input {
+
+}
+
+.ticker-list {
+  display: inline-block;
+  width: 200px;
+  border: 1px red dashed;
+  margin: 5px;
+}
+
+.ticker-remove-item {
+  float: right;
+  padding-right: 3px;
+}
+.ticker-remove-item:hover {
+  cursor: pointer;
+}
